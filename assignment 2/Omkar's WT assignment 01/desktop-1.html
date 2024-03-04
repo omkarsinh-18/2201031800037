@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./desktop-1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Irish Grover:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <header class="frame-home">
+        <h2 class="swappy7">SWAPPY</h2>
+        <div class="f-r-a-m-e-login">
+          <div class="sign-up-frame">
+            <img
+              class="sign-up-frame-child"
+              loading="lazy"
+              alt=""
+              src="./public/ellipse-2.svg"
+            />
+
+            <div class="home9" id="hOMEText">HOME</div>
+          </div>
+          <div class="sign-up-frame1">
+            <img
+              class="sign-up-frame-item"
+              loading="lazy"
+              alt=""
+              src="./public/ellipse-2.svg"
+              id="ellipse1"
+            />
+
+            <div class="about7">ABOUT</div>
+          </div>
+          <button class="sign-up-frame2">
+            <img
+              class="sign-up-frame-inner"
+              alt=""
+              src="./public/ellipse-1.svg"
+            />
+
+            <div class="log-in8" id="lOGINText">LOG IN</div>
+          </button>
+        </div>
+      </header>
+      <main class="frameellipse-h-o-m-e">
+        <section class="frameellipse-a-b-o-u-t">
+          <div class="frame-name">
+            <div class="frame-name-child"></div>
+            <div class="sign-up-input">
+              <h1 class="sign-up">SIGN UP</h1>
+            </div>
+            <div class="d-o-b-input">
+              <div class="mobile-input">
+                <div class="name-">Name : ________</div>
+                <div class="email-input">
+                  <div class="surname-">Surname : ________</div>
+                </div>
+              </div>
+              <div class="access-rectangle">
+                <div class="frame-profile">
+                  <div class="dob-">DOB : _________</div>
+                </div>
+                <div class="mobile-">Mobile : __________</div>
+              </div>
+            </div>
+            <div class="mobile-input1">
+              <div class="password-input">
+                <div class="sign-up-button">
+                  <div class="password-1">Password : ________</div>
+                </div>
+                <div class="email-">Email : ________</div>
+              </div>
+            </div>
+            <div class="about-frame1">
+              <div class="log-in-frame">
+                <div class="name-text">
+                  <h2 class="sign-up1">SIGN UP</h2>
+                </div>
+                <div class="already-have-an" id="alreadyHaveAn">
+                  Already have an account ?
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="undraw-access-account-re-8spm-icon1"
+            loading="lazy"
+            alt=""
+            src="./public/undraw-access-account-re-8spm-1@2x.png"
+          />
+        </section>
+      </main>
+    </div>
+
+    <script>
+      var hOMEText = document.getElementById("hOMEText");
+      if (hOMEText) {
+        hOMEText.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var ellipse1 = document.getElementById("ellipse1");
+      if (ellipse1) {
+        ellipse1.addEventListener("click", function (e) {
+          window.location.href = "./about-detail.html";
+        });
+      }
+      
+      var lOGINText = document.getElementById("lOGINText");
+      if (lOGINText) {
+        lOGINText.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      
+      var alreadyHaveAn = document.getElementById("alreadyHaveAn");
+      if (alreadyHaveAn) {
+        alreadyHaveAn.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      </script>
+  </body>
+</html>

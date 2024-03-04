@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./about-detail-2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Irish Grover:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Itim:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="about-detail-2">
+      <header class="frame-set">
+        <h2 class="swappy4">SWAPPY</h2>
+        <div class="main-frames">
+          <div class="circle-frames">
+            <img
+              class="circle-frames-child"
+              loading="lazy"
+              alt=""
+              src="./public/ellipse-2.svg"
+              id="ellipse"
+            />
+
+            <div class="home5">HOME</div>
+          </div>
+          <div class="circle-frames1">
+            <img
+              class="circle-frames-item"
+              loading="lazy"
+              alt=""
+              src="./public/ellipse-1.svg"
+              id="ellipse1"
+            />
+
+            <div class="about4">ABOUT</div>
+          </div>
+          <button class="circle-frames2">
+            <img
+              class="circle-frames-inner"
+              alt=""
+              src="./public/ellipse-2.svg"
+            />
+
+            <div class="log-in4" id="lOGINText">LOG IN</div>
+          </button>
+        </div>
+      </header>
+      <section class="about-us-fostering-container">
+        <p class="about-us">About Us:</p>
+        <p class="fostering-a-community">
+          Fostering a Community of Shared Skills
+        </p>
+        <p class="blank-line6">&nbsp;</p>
+        <p class="we-were-born">
+          We were born from the belief that learning shouldn't be confined to
+          classrooms or expensive courses. We envision a world where everyone
+          has the opportunity to develop their talents and passions, regardless
+          of background or resources. That's why we created this platform – a
+          vibrant community dedicated to skill exchange.
+        </p>
+      </section>
+    </div>
+
+    <script>
+      var ellipse = document.getElementById("ellipse");
+      if (ellipse) {
+        ellipse.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
+        });
+      }
+      
+      var ellipse1 = document.getElementById("ellipse1");
+      if (ellipse1) {
+        ellipse1.addEventListener("click", function (e) {
+          window.location.href = "./about-detail.html";
+        });
+      }
+      
+      var lOGINText = document.getElementById("lOGINText");
+      if (lOGINText) {
+        lOGINText.addEventListener("click", function (e) {
+          window.location.href = "./login.html";
+        });
+      }
+      </script>
+  </body>
+</html>

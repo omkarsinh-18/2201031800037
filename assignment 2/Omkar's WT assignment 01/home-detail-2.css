@@ -1,0 +1,105 @@
+.home-detail-2-child {
+  position: absolute;
+  top: 82px;
+  left: 521px;
+  width: 349px;
+  height: 116px;
+}
+.imagine {
+  margin: 0;
+}
+.sharing-your-coding,
+.teaching-someone-baking {
+  margin-bottom: 0;
+}
+.teaching-someone-baking-and-le {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-29xl);
+}
+.imagine-teaching-someone-container {
+  position: absolute;
+  top: 295px;
+  left: 74px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-itim);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 1292px;
+  height: 239px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.page-3-1 {
+  position: absolute;
+  top: 534px;
+  left: 417px;
+  width: 661px;
+  height: 441px;
+  object-fit: cover;
+}
+.swappy2 {
+  position: absolute;
+  top: 21px;
+  left: 0;
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-irish-grover);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 319px;
+  height: 77px;
+}
+.home-detail-2-item {
+  position: absolute;
+  top: 22px;
+  left: 657px;
+  width: 238px;
+  height: 76px;
+  cursor: pointer;
+}
+.ellipse-icon,
+.home-detail-2-inner {
+  position: absolute;
+  top: 22px;
+  left: 915px;
+  width: 238px;
+  height: 76px;
+}
+.ellipse-icon {
+  left: 1172px;
+  cursor: pointer;
+}
+.home3 {
+  left: 720px;
+  width: 125px;
+}
+.about2,
+.home3,
+.log-in2 {
+  position: absolute;
+  top: 32px;
+  display: inline-block;
+  height: 50px;
+}
+.about2 {
+  left: 963px;
+  width: 142px;
+  cursor: pointer;
+}
+.log-in2 {
+  left: 1222px;
+  width: 144px;
+}
+.home-detail-2 {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-skyblue);
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-irish-grover);
+}

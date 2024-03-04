@@ -1,0 +1,224 @@
+.swappy3 {
+  margin: 0;
+  height: 101px;
+  width: 328px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.home4,
+.platform-text-child,
+.swappy3 {
+  position: relative;
+  flex-shrink: 0;
+}
+.platform-text-child {
+  align-self: stretch;
+  height: 76px;
+  max-width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.home4 {
+  height: 50px;
+  display: inline-block;
+  z-index: 1;
+  margin-top: -65px;
+}
+.platform-text {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.about3,
+.platform-text-item {
+  position: relative;
+  flex-shrink: 0;
+}
+.platform-text-item {
+  align-self: stretch;
+  height: 76px;
+  max-width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.about3 {
+  width: 136px;
+  height: 50px;
+  display: inline-block;
+  z-index: 1;
+  margin-top: -65px;
+}
+.platform-text1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.platform-text-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 238px;
+  height: 76px;
+  cursor: pointer;
+}
+.log-in3 {
+  position: absolute;
+  top: 15px;
+  left: 52px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-irish-grover);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 133px;
+  height: 37px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.platform-text2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 76px;
+  flex: 1;
+  position: relative;
+}
+.about-frame,
+.swappy-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.about-frame {
+  height: 76px;
+  width: 778px;
+  justify-content: flex-start;
+  gap: 0 32px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.swappy-parent {
+  width: 1428px;
+  justify-content: space-between;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-irish-grover);
+}
+.blank-line2,
+.this-platform-fosters {
+  margin: 0;
+}
+.unlock-your-full-potential-sh1 {
+  margin-bottom: 0;
+}
+.unlock-your-full-potential-sh {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-34xl);
+}
+.blank-line3 {
+  margin: 0;
+}
+.connect-with-passionate-indivi1 {
+  margin-bottom: 0;
+}
+.connect-with-passionate-indivi {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-34xl);
+}
+.blank-line4 {
+  margin: 0;
+}
+.experience-the-joy-of-exchange1 {
+  margin-bottom: 0;
+}
+.experience-the-joy-of-exchange {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-34xl);
+}
+.blank-line5 {
+  margin: 0;
+}
+.span {
+  font-family: var(--font-irish-grover);
+}
+.ready-to-swap-skills-and-swap {
+  margin: 0;
+}
+.this-platform-fosters-container {
+  height: 723px;
+  width: 1349px;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  font-family: var(--font-itim);
+}
+.about-detail-1,
+.welcome-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.welcome-frame {
+  flex-direction: row;
+  padding: 0 42px 0 49px;
+  max-width: 100%;
+}
+.about-detail-1 {
+  position: relative;
+  background-color: var(--color-skyblue);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-7xl) 0 46px;
+  gap: 128px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .this-platform-fosters-container {
+    font-size: var(--font-size-13xl);
+  }
+  .welcome-frame {
+    padding-left: var(--padding-5xl);
+    padding-right: 21px;
+    box-sizing: border-box;
+  }
+  .about-detail-1 {
+    gap: 128px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-frame {
+    gap: 0 32px;
+  }
+  .this-platform-fosters-container {
+    font-size: var(--font-size-5xl);
+  }
+  .about-detail-1 {
+    gap: 128px 0;
+  }
+}

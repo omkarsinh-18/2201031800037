@@ -1,0 +1,97 @@
+.blank-line1,
+.swap-skills-swap,
+.tired-of-paying {
+  margin: 0;
+}
+.swap-skills-swap-container {
+  position: absolute;
+  top: 197px;
+  left: 18px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-itim);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 1394px;
+  height: 408px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.page-2-1 {
+  position: absolute;
+  top: 508px;
+  left: 378px;
+  width: 743px;
+  height: 472px;
+  object-fit: cover;
+}
+.swappy1 {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  font-size: var(--font-size-45xl);
+  font-family: var(--font-irish-grover);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 339px;
+  height: 77px;
+}
+.technology-stack-child {
+  position: absolute;
+  top: 15px;
+  left: 664px;
+  width: 238px;
+  height: 76px;
+  cursor: pointer;
+}
+.technology-stack-inner,
+.technology-stack-item {
+  position: absolute;
+  top: 15px;
+  left: 925px;
+  width: 238px;
+  height: 76px;
+}
+.technology-stack-inner {
+  left: 1186px;
+}
+.about1,
+.home2,
+.log-in1 {
+  position: absolute;
+  top: 31px;
+  left: 734px;
+}
+.about1,
+.log-in1 {
+  top: 25px;
+  left: 987px;
+  cursor: pointer;
+}
+.log-in1 {
+  top: 31px;
+  left: 1221px;
+  display: inline-block;
+  width: 168px;
+  height: 26px;
+}
+.technology-stack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-skyblue);
+  width: 1440px;
+  height: 1016px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-irish-grover);
+}
+.home-detail-1 {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+}

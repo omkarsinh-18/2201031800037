@@ -1,0 +1,221 @@
+.swappy5 {
+  margin: 0;
+  height: 88px;
+  width: 292px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.frame-set-child {
+  height: 76px;
+  width: 238px;
+  position: relative;
+  cursor: pointer;
+}
+.home6 {
+  height: 37px;
+  width: 124px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+  margin-left: -181px;
+}
+.frame-set1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-set-item {
+  align-self: stretch;
+  height: 76px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.about5 {
+  width: 182px;
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: var(--padding-xl);
+  padding-right: var(--padding-xl);
+  z-index: 1;
+  margin-top: -65px;
+}
+.frame-set2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-set-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 238px;
+  height: 76px;
+  cursor: pointer;
+}
+.log-in5 {
+  position: absolute;
+  top: 14px;
+  left: 48px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-irish-grover);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 141px;
+  height: 38px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frame-set3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 76px;
+  flex: 1;
+  position: relative;
+}
+.home-frame,
+.swappy-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.home-frame {
+  height: 76px;
+  width: 764px;
+  justify-content: flex-start;
+  gap: 0 25px;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+}
+.swappy-group {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-45xl);
+  color: var(--color-white);
+  font-family: var(--font-irish-grover);
+}
+.blank-line7,
+.heres-what-sets {
+  margin: 0;
+}
+.mutual-learning-we-believe {
+  margin-bottom: 0;
+}
+.mutual-learning-we-believe-ev {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-28xl);
+}
+.blank-line8 {
+  margin: 0;
+}
+.focus-on-accessibility-we {
+  margin-bottom: 0;
+}
+.focus-on-accessibility-we-mak {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-28xl);
+}
+.blank-line9 {
+  margin: 0;
+}
+.diverse-skill-sets-we {
+  margin-bottom: 0;
+}
+.diverse-skill-sets-we-cater-t {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-28xl);
+}
+.blank-line10 {
+  margin: 0;
+}
+.empowering-community-we-foste1 {
+  margin-bottom: 0;
+}
+.empowering-community-we-foste {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-28xl);
+}
+.blank-line11,
+.were-more-than {
+  margin: 0;
+}
+.heres-what-sets-container {
+  height: 820px;
+  width: 1323px;
+  position: relative;
+  font-size: 35px;
+  font-family: var(--font-itim);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.about-detail-3,
+.unique-value-frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.unique-value-frame {
+  flex-direction: row;
+  padding: 0 51px;
+  max-width: 100%;
+}
+.about-detail-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-skyblue);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-7xl) var(--padding-mini) var(--padding-16xl) 0;
+  gap: 55px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .heres-what-sets-container {
+    font-size: 28px;
+  }
+  .unique-value-frame {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .about-detail-3 {
+    gap: 55px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heres-what-sets-container {
+    font-size: 21px;
+  }
+}
